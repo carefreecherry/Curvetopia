@@ -6,17 +6,23 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
 
 # Workflow<br/>
 
-# 1.	Shape Detection and Symmetry using YOLO:<br/>
-  •	The first step involves using a YOLO (You Only Look Once) model to detect various shapes and their symmetries within the doodle.<br/>
+# 1.	CSV to Image:<br/>
+  •	The first step involves converting given csv file into image of 256x256 size.<br/>
+  
+# 2.	Shape Detection and Symmetry using YOLO:<br/>
+  •	The next step involves using a YOLO (You Only Look Once) model to detect various shapes and their symmetries within the doodle.<br/>
   •	The YOLO model was trained and fine-tuned in Google Colab.<br/>
   •	The model can identify different shapes and evaluate their symmetry, providing the initial data for the regularization process.<br/>
 
 
-# 2.	Shape Regularization and Occlusion using Pix2Pix GAN:
+# 3.	Shape Regularization and Occlusion using Pix2Pix GAN:
   •	After detecting the shapes, a Pix2Pix GAN (Generative Adversarial Network) is used to transform irregular shapes into regular ones and for occlusion.<br/>
   •	The dataset for training the Pix2Pix GAN was generated using RoughJS, which creates mapped pairs of irregular and regular shapes.<br/>
   •	The GAN model takes an irregular shape as input and outputs a regularized version of the shape.<br/>
 
+# 4.	Image to CSV:<br/>
+  •	The last step involves converting generated image file back into csv file.<br/>
+  
 # Getting Started<br/>
 
 # Dataset Generation <br/>
