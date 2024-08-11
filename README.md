@@ -25,7 +25,7 @@ This project aims to regularize irregular doodles by detecting and correcting sh
   YOLO dataset and Pix2Pix GAN trained model checkpoint: https://drive.google.com/drive/folders/1N0P4YyPvJ1TD_ljiZin23m7GOImTF0yS?usp=sharing<br/>
   
 # Running the Pix2Pix Project Locally<br/>
-  To run the Pix2Pix GAN locally, you will need access to a GPU and CUDA. The following dependencies are required:<br/>
+  To run the Pix2Pix GAN locally, you will need access to a GPU and CUDA. Change directory to Pix2Pix_GAN folder. The following dependencies are required:<br/>
   	•	Python 3.x<br/>
    	•	CUDA (Best installed using anaconda)<br/>
   	•	cuDNN (Best installed using anaconda)<br/>
