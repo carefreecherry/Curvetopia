@@ -54,8 +54,8 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
   Simply download the dataset from the link provided and add them to the local repo. You can also use the model we trained with over 500,000 steps found in the dataset link and use 
   that checkpoint to produce images or train more.<br/>
     The statistics of the model that we trained over 500,000 steps are as follows:<br/>
-  ![alt text]([https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_statistics_1.jpeg?raw=true])
-  ![alt text]([https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_statistics_2.jpeg?raw=true])
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_statistics_1.jpeg?raw=true)
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_statistics_2.jpeg?raw=true)
 
 # Running the Pix2Pix on Kaggle<br/>
   Alternatively, you can run the Pix2Pix GAN on Kaggle. The Kaggle notebook provided in the project repository contains all the necessary code and configuration to run and train the model.<br/>
