@@ -71,8 +71,8 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
 
   # Pix2Pix GAN Results:
   ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_1.jpeg?raw=true)
-  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_2.jpeg?raw=true)
-  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_3.jpeg?raw=true)
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result2.jpeg?raw=true)
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result3.jpeg?raw=true)
   
 # Acknowledgments<br/>
 
