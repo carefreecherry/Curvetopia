@@ -69,6 +69,11 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
 
   The results of the shape regularization can be viewed in the results directory. Each input image is processed to output a regularized version of the shapes within the doodle.<br/>
 
+  # Pix2Pix GAN Results:
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_1.jpeg?raw=true)
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_2.jpeg?raw=true)
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_3.jpeg?raw=true)
+  
 # Acknowledgments<br/>
 
   •	The YOLO model was trained using resources available on Google Colab.<br/>
