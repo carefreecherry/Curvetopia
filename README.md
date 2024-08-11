@@ -43,7 +43,7 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
 # Datasets<br/>
 
   Pix2Pix GAN dataset: https://www.kaggle.com/datasets/vibhorsaxena2302/irregular-shapes/data<br/>
-  YOLO dataset and Pix2Pix GAN trained model checkpoint: https://drive.google.com/drive/folders/1N0P4YyPvJ1TD_ljiZin23m7GOImTF0yS?usp=sharing<br/>
+  YOLO dataset and Pix2Pix GAN trained model checkpoint: https://drive.google.com/drive/folders/1NBCxvFAsaTfScu3WP9IJq67wV0L4QM8n <br/>
   
 # Running the Pix2Pix Project Locally<br/>
   To run the Pix2Pix GAN locally, you will need access to a GPU and CUDA. Clone Pix2Pix_GAN directory. The following dependencies are required:<br/>
