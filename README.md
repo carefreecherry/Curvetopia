@@ -1,15 +1,15 @@
-# Adobe GEN AI Project: Regularizing Irregular Doodles
+# Adobe GEN AI Project: Regularizing Irregular Doodles<br/>
 
-# Overview
+# Overview<br/>
 
 This project aims to regularize irregular doodles by detecting and correcting shapes within the doodles using deep learning models. The project involves using a YOLO model to detect shapes and their symmetry, followed by a Pix2Pix GAN to transform irregular shapes into regular shapes. The final output is a cleaned-up version of the original doodle with regularized shapes.
 
-# Workflow
+# Workflow<br/>
 
-# 1.	Shape Detection using YOLO:
-  •	The first step involves using a YOLO (You Only Look Once) model to detect various shapes and their symmetries within the doodle.
-  •	The YOLO model was trained and fine-tuned in Google Colab.
-  •	The model can identify different shapes and evaluate their symmetry, providing the initial data for the regularization process.
+# 1.	Shape Detection using YOLO:<br/>
+  •	The first step involves using a YOLO (You Only Look Once) model to detect various shapes and their symmetries within the doodle.<br/>
+  •	The YOLO model was trained and fine-tuned in Google Colab.<br/>
+  •	The model can identify different shapes and evaluate their symmetry, providing the initial data for the regularization process.<br/>
 
 
 # 2.	Shape Regularization using Pix2Pix GAN:
@@ -17,30 +17,32 @@ This project aims to regularize irregular doodles by detecting and correcting sh
   •	The dataset for training the Pix2Pix GAN was generated using RoughJS, which creates mapped pairs of irregular and regular shapes.
 	•	The GAN model takes an irregular shape as input and outputs a regularized version of the shape.
 
-# Getting Started
+# Getting Started<br/>
 
-# Datasets
+# Datasets<br/>
 
-  Pix2Pix GAN dataset: https://www.kaggle.com/datasets/vibhorsaxena2302/irregular-shapes/data
-  YOLO dataset and Pix2Pix GAN trained model checkpoint: https://drive.google.com/drive/folders/1N0P4YyPvJ1TD_ljiZin23m7GOImTF0yS?usp=sharing
+  Pix2Pix GAN dataset: https://www.kaggle.com/datasets/vibhorsaxena2302/irregular-shapes/data<br/>
+  YOLO dataset and Pix2Pix GAN trained model checkpoint: https://drive.google.com/drive/folders/1N0P4YyPvJ1TD_ljiZin23m7GOImTF0yS?usp=sharing<br/>
   
-# Running the Pix2Pix Project Locally
-  To run the Pix2Pix GAN locally, you will need access to a GPU and CUDA. The following dependencies are required:
-  	•	Python 3.x
-   	•	CUDA (Best installed using anaconda)
-  	•	cuDNN (Best installed using anaconda)
-   	•	Tensorflow
-  Simply download the dataset from the link provided and add them to the local repo. You can also use the model we trained with over 500,000 steps found in the dataset link and use that checkpoint to produce images or train more.
+# Running the Pix2Pix Project Locally<br/>
+  To run the Pix2Pix GAN locally, you will need access to a GPU and CUDA. The following dependencies are required:<br/>
+  	•	Python 3.x<br/>
+   	•	CUDA (Best installed using anaconda)<br/>
+  	•	cuDNN (Best installed using anaconda)<br/>
+   	•	Tensorflow<br/>
+  Simply download the dataset from the link provided and add them to the local repo. You can also use the model we trained with over 500,000 steps found in the dataset link and use 
+  that checkpoint to produce images or train more.<br/>
 
-# Running the Project on Kaggle
-  Alternatively, you can run the Pix2Pix GAN on Kaggle. The Kaggle notebook provided in the project repository contains all the necessary code and configuration to run and train the model. https://www.kaggle.com/code/vibhorsaxena2302/adobe
+# Running the Project on Kaggle<br/>
+  Alternatively, you can run the Pix2Pix GAN on Kaggle. The Kaggle notebook provided in the project repository contains all the necessary code and configuration to run and train the model.<br/>
+  https://www.kaggle.com/code/vibhorsaxena2302/adobe<br/>
 
-# Results
+# Results<br/>
 
-  The results of the shape regularization can be viewed in the results directory. Each input image is processed to output a regularized version of the shapes within the doodle.
+  The results of the shape regularization can be viewed in the results directory. Each input image is processed to output a regularized version of the shapes within the doodle.<br/>
 
-# Acknowledgments
+# Acknowledgments<br/>
 
-  •	The YOLO model was trained using resources available on Google Colab.
-	•	The Pix2Pix GAN was developed and trained using PyTorch, with datasets generated using RoughJS.
+  •	The YOLO model was trained using resources available on Google Colab.<br/>
+  •	The Pix2Pix GAN was developed and trained using PyTorch, with datasets generated using RoughJS.<br/>
 
