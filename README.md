@@ -58,6 +58,10 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
   Alternatively, you can run the Pix2Pix GAN on Kaggle. The Kaggle notebook provided in the project repository contains all the necessary code and configuration to run and train the model.<br/>
   https://www.kaggle.com/code/vibhorsaxena2302/adobe<br/>
 
+# Running the Yolov5 on Google Colab<br/>
+  You can run the Yolov5 on colab. The colab notebook provided in the project repository contains all the necessary code and configuration to run and train the model.<br/>
+  https://colab.research.google.com/drive/1BATZqT032wB1bTwXOXkd0iipqH0XGrDP#scrollTo=qw2n3Bg5x2pM<br/>
+
 # Results<br/>
 
   The results of the shape regularization can be viewed in the results directory. Each input image is processed to output a regularized version of the shapes within the doodle.<br/>
