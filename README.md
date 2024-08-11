@@ -13,9 +13,9 @@ This project aims to regularize irregular doodles by detecting and correcting sh
 
 
 # 2.	Shape Regularization using Pix2Pix GAN:
-  •	After detecting the shapes, a Pix2Pix GAN (Generative Adversarial Network) is used to transform irregular shapes into regular ones and for occlusion.
-  •	The dataset for training the Pix2Pix GAN was generated using RoughJS, which creates mapped pairs of irregular and regular shapes.
-	•	The GAN model takes an irregular shape as input and outputs a regularized version of the shape.
+  •	After detecting the shapes, a Pix2Pix GAN (Generative Adversarial Network) is used to transform irregular shapes into regular ones and for occlusion.<br/>
+  •	The dataset for training the Pix2Pix GAN was generated using RoughJS, which creates mapped pairs of irregular and regular shapes.<br/>
+  •	The GAN model takes an irregular shape as input and outputs a regularized version of the shape.<br/>
 
 # Getting Started<br/>
 
