@@ -2,7 +2,7 @@
 
 # Overview<br/>
 
-This project aims to regularize irregular doodles by detecting and correcting shapes within the doodles using deep learning models. The project involves using a YOLO model to detect shapes and their symmetry, followed by a Pix2Pix GAN to transform irregular shapes into regular shapes. The final output is a cleaned-up version of the original doodle with regularized shapes.
+This project regularizes irregular doodles using deep learning. A YOLO model detects shapes and evaluates symmetry, while a Pix2Pix GAN corrects occlusion and transforms irregular shapes into regular ones. Trained on RoughJS datasets, the models work together to produce cleaned-up doodles with regularized shapes. Leveraging resources like Google Colab, Kaggle, and PyTorch, the project ensures efficient training and execution.
 
 # Workflow<br/>
 
@@ -20,19 +20,19 @@ This project aims to regularize irregular doodles by detecting and correcting sh
 # Getting Started<br/>
 
 # Dataset Generation <br/>
-  To generate your own dataset, Clone DatasetGeneration directory. Follow the following steps:
+  To generate your own dataset, Clone DatasetGeneration directory. Follow the following steps:<br/>
   
-  # prequsite: node.js
+  # prequsite: node.js<br/>
 
-  ```npm install xmldom```
+  ```npm install xmldom```<br/>
 
-  ```npm install sharp```
+  ```npm install sharp```<br/>
 
-  ```npm install --save roughjs```
+  ```npm install --save roughjs```<br/>
 
-  Change the path to the repository where the dataset is to be generated after line 1417 and run the file using following command:
+  Change the path to the repository where the dataset is to be generated after line 1417 and run the file using following command:<br/>
 
-  ```node generate.js```
+  ```node generate.js```<br/>
 
 # Datasets<br/>
 
