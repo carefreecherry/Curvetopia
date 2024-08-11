@@ -64,7 +64,7 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
 
 # Running the Yolov5 on Google Colab<br/>
   You can run the Yolov5 on colab. The colab notebook provided in the project repository contains all the necessary code and configuration to run and train the model.<br/>
-  https://colab.research.google.com/drive/1BATZqT032wB1bTwXOXkd0iipqH0XGrDP#scrollTo=qw2n3Bg5x2pM<br/>
+  https://colab.research.google.com/drive/1uj1R1usT3ly4UDYHwJcN4wZIlk3bh5ut?authuser=0#scrollTo=0RQHIJ8FoVYn<br/>
 
 # Results<br/>
 
