@@ -74,6 +74,9 @@ This project regularizes irregular doodles using deep learning. A YOLO model det
   ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result_1.jpeg?raw=true)
   ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result2.jpeg?raw=true)
   ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/pix2pix_result3.jpeg?raw=true)
+
+  # YOLOV5 Results:
+  ![alt text](https://github.com/carefreecherry/Curvetopia/blob/main/ReadMe_Images/shape_detection1.jpg?raw=true)
   
 # Acknowledgments<br/>
 
